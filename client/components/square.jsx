@@ -45,7 +45,9 @@ const Square = function({
   }
 
   const RevealedSquare = function({content}) {
-    return <button style={{
+    return <button 
+    onContextMenu={e => e.preventDefault()}
+    style={{
       width: '40px',
       height: '40px',
       backgroundColor: 'transparent',

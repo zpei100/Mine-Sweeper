@@ -1,8 +1,8 @@
 A Mine-Sweeper application
 
 run:
-  npm install
-  npm start
+  - npm install
+  - npm start
 
 Application is on port 3000
 
